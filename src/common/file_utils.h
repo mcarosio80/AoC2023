@@ -1,5 +1,5 @@
-#ifndef FILE_UTILS
-#define FILE_UTILS
+#ifndef FILE_UTILS_H
+#define FILE_UTILS_H
 
 #include <sstream>
 #include <functional>
@@ -12,4 +12,4 @@ bool text_iterator(const char *fileName, const std::function<void(const std::str
     
 } // namespace AoC
 
- #endif // FILE_UTILS
+ #endif // FILE_UTILS_H
