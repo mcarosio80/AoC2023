@@ -61,7 +61,6 @@ int main(int argc, char **argv)
     {
         std::cout << "Error iterating through " << inputFile << "\n";
     }
-    // 53651
     std::cout << "Grand total: " << accumulator << "\n";
 
     accumulator = 0;
@@ -70,7 +69,6 @@ int main(int argc, char **argv)
     {
         std::cout << "Error iterating through " << inputFile << "\n";
     }
-    // 53894
     std::cout << "Grand total: " << accumulator << "\n";
 
     return 0;

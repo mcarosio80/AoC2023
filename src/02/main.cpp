@@ -144,7 +144,6 @@ int main(int argc, char **argv)
             accumulator += g.first;
         }
     }
-    // 2528
     std::cout << "Grand total: " << accumulator << "\n";
 
     accumulator = 0;
@@ -161,6 +160,5 @@ int main(int argc, char **argv)
         }
         accumulator += cubePower;
     }
-    // 67363
     std::cout << "Grand total: " << accumulator << "\n";
 }

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.18.4)
 
-project(aoc2023
+project(AdventOfCode-2023
     LANGUAGES CXX
     VERSION 1.0.2023.1
     DESCRIPTION "Advent of Code 2023"
@@ -14,6 +14,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(AOC_INPUT_DIR ${CMAKE_CURRENT_SOURCE_DIR}/input)
 set(CONFIG_DIR ${CMAKE_CURRENT_SOURCE_DIR}/config)
 set(COMMON_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src/common)
+set(LIB_DIR ${CMAKE_CURRENT_SOURCE_DIR}/lib)
 
 
 include_directories(${COMMON_DIR})
@@ -36,7 +37,7 @@ message("Last commit hash: " ${LAST_COMMIT_HASH})
 configure_file(${CONFIG_DIR}/config.h.in ${COMMON_DIR}/config.h)
 
 
-#message("Adding subdirectory lib")
-#add_subdirectory(lib)
+# message("Adding subdirectory lib")
+# add_subdirectory(lib)
 message("Adding subdirectory src")
 add_subdirectory(src)
