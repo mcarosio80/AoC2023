@@ -14,4 +14,4 @@ $ cmake ..
 $ cmake --build . -j24
 </pre>
 
-Have fun and long life to AoC!
+Have fun and long life to [AoC](https://adventofcode.com/2023)!
