@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.18.4)
 
-project(AdventOfCode-2023
+project(AdventOfCode
     LANGUAGES CXX
     VERSION 1.0.2023.1
-    DESCRIPTION "Advent of Code 2023"
+    DESCRIPTION "Advent of Code C++ repo"
 )
 
 set(CMAKE_CXX_STANDARD 17)
@@ -18,6 +18,7 @@ set(LIB_DIR ${CMAKE_CURRENT_SOURCE_DIR}/lib)
 
 
 include_directories(${COMMON_DIR})
+include_directories(${LIB_DIR}/2023)
 
 find_package(Git REQUIRED)
 if(Git_FOUND)
